@@ -4,19 +4,19 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = True
+        IS_VPS = False
         
-        API_HASH = "8a344885e98435909ba2fbbb88eb9262"
-        API_ID = 3926874
-        BOT_TOKEN = "1753396671:AAHZwOo4ZDzHOJlq1ReuNG2O4Ch3LA8Ft6k"
-        BASE_URL_OF_BOT = "localhost:8080"
+        API_HASH = ""
+        API_ID = 0
+        BOT_TOKEN = ""
+        BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001302657960]
-        OWNER_ID = 1522161417
+        ALD_USR = []
+        OWNER_ID = 0
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -37,10 +37,10 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        #DATABASE_URL = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DATABASE_URL = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        DATABASE_URL = "postgres://eiprtegw:4IuUVK1G0APEcOmyO5iaWLjlXL_gFF6F@batyr.db.elephantsql.com/eiprtegw"
+        #DATABASE_URL = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
         MEGA_ENABLE = False
@@ -76,7 +76,7 @@ except:
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
-        BOT_CMD_POSTFIX = "@Onegru555bot" 
+        BOT_CMD_POSTFIX = "" 
 
         # Time out for the status Delete.
         STATUS_DEL_TOUT = 20
